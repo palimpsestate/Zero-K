@@ -79,7 +79,7 @@ return { tankheavyraid = {
 
       customParams            = {
         burst = Shared.BURST_RELIABLE,
-        extra_damage = 500,
+        extra_damage = 1000,
         light_camera_height = 1600,
         light_color = [[0.85 0.85 1.2]],
         light_radius = 180,
@@ -88,7 +88,7 @@ return { tankheavyraid = {
       cylinderTargeting      = 0,
 
       damage                  = {
-        default        = 180,
+        default        = 360,
       },
 
       duration                = 10,
@@ -101,7 +101,7 @@ return { tankheavyraid = {
       interceptedByShieldType = 1,
       paralyzeTime            = 1,
       range                   = 245,
-      reloadtime              = 2.6,
+      reloadtime              = 5.2,
       rgbColor                = [[0.5 0.5 1]],
       soundStart              = [[weapon/more_lightning_fast]],
       soundTrigger            = true,
